@@ -1,0 +1,35 @@
+{
+  "name": "asterios/app",
+  "type": "project",
+  "require": {
+    "php": ">=8.3",
+    "asterios/core": "^1.5",
+    "ext-intl": "*",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "asterios-install": [
+      "@php vendor/bin/asterios install"
+    ],
+    "post-install-cmd": [
+      "@asterios-install"
+    ],
+    "post-update-cmd": [
+      "@asterios-install"
+    ]
+  }
+
+}
