@@ -1,6 +1,16 @@
 {
   "name": "asterios/app",
   "type": "project",
+  "description": "Scaffold App for AsteriosPHP. AsteriosPHP is a simple and flexible PHP 8.+ framework, inspired from the best features of other frameworks, in a modern and elegant way.",
+  "homepage": "https://www.asteriosphp.de",
+  "authors": [
+    {
+      "name": "Benjamin Butschko"
+    },
+    {
+      "name": "Jörg Heinrich"
+    }
+  ],
   "require": {
     "php": ">=8.3",
     "asterios/core": "^1.5",

@@ -2,3 +2,4 @@
 /logs/*.log
 .idea
 .env
+/.ddev/
