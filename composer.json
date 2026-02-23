@@ -12,7 +12,7 @@
     }
   ],
   "require": {
-    "php": ">=8.3",
+    "php": "^8.3",
     "asterios/core": "^1.5",
     "ext-intl": "*",
     "ext-ctype": "*"
