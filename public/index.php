@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-error_reporting(E_ALL);
-
 use Asterios\Core\Exception\RouterException;
 use Asterios\Core\Router;
 
