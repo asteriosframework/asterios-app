@@ -3,7 +3,7 @@
   "type": "project",
   "require": {
     "php": "^8.3",
-    "asterios/core": "dev-feature/php84",
+    "asterios/core": "^1.5",
     "ext-intl": "*",
     "ext-ctype": "*"
   },
