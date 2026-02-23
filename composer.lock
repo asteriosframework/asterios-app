@@ -4,28 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79cf22e0d125ef2e20a4f6153dfa13f4",
+    "content-hash": "ba399ee95540e49905b947c4f2fe9915",
     "packages": [
         {
             "name": "asterios/core",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "305ffa26a1b234c51e3cb06b89f3345910c24eec"
+                "reference": "a1f792d95ab593a4e562ef280f2afb197d1544b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/305ffa26a1b234c51e3cb06b89f3345910c24eec",
-                "reference": "305ffa26a1b234c51e3cb06b89f3345910c24eec",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/a1f792d95ab593a4e562ef280f2afb197d1544b9",
+                "reference": "a1f792d95ab593a4e562ef280f2afb197d1544b9",
                 "shasum": ""
             },
             "require": {
                 "endroid/qr-code": "^6.0",
                 "ext-curl": "*",
                 "ext-mysqli": "*",
-                "firebase/php-jwt": "^6.10",
+                "firebase/php-jwt": "^7",
                 "mobiledetect/mobiledetectlib": "4.8.09",
+                "php": "^8.3",
                 "spomky-labs/otphp": "^11.3",
                 "symfony/mailer": "^7.3",
                 "symfony/mime": "^7.3",
@@ -38,7 +39,7 @@
                 "mockery/mockery": "1.6.12",
                 "phan/phan": "^5.4",
                 "phpstan/phpstan": "2.1.17",
-                "phpunit/phpunit": "11.4.2",
+                "phpunit/phpunit": "^12.5",
                 "roave/security-advisories": "dev-latest"
             },
             "bin": [
@@ -66,9 +67,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/1.5.1"
+                "source": "https://github.com/asteriosframework/core/tree/1.6.0"
             },
-            "time": "2026-02-17T17:38:24+00:00"
+            "time": "2026-02-23T11:59:57+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -393,16 +394,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.11.1",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "d1e91ecf8c598d073d0995afa8cd5c75c6e19e66"
+                "reference": "5645b43af647b6947daac1d0f659dd1fbe8d3b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/d1e91ecf8c598d073d0995afa8cd5c75c6e19e66",
-                "reference": "d1e91ecf8c598d073d0995afa8cd5c75c6e19e66",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5645b43af647b6947daac1d0f659dd1fbe8d3b65",
+                "reference": "5645b43af647b6947daac1d0f659dd1fbe8d3b65",
                 "shasum": ""
             },
             "require": {
@@ -450,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.11.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v7.0.2"
             },
-            "time": "2025-04-09T20:32:01+00:00"
+            "time": "2025-12-16T22:17:28+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -2115,7 +2116,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.3",
+        "php": "^8.3",
         "ext-intl": "*",
         "ext-ctype": "*"
     },

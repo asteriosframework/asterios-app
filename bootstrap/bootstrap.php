@@ -3,6 +3,7 @@
 use Asterios\Core\Asterios;
 use Asterios\Core\Exception\AsteriosException;
 use Asterios\Core\Exception\ConfigLoadException;
+use Asterios\Core\Exception\LoggerException;
 use Asterios\Core\Logger;
 
 $documentRoot = $_SERVER['DOCUMENT_ROOT'];
@@ -17,6 +18,10 @@ Asterios::setLocale(LC_TIME, 'de_DE.UTF-8');
 try {
     Asterios::init();
 } catch (ConfigLoadException|AsteriosException $e) {
-    Logger::forge()
-        ->error('Error initializing application!', ['exception' => $e->getMessage()]);
+    try {
+        Logger::forge()
+            ->error('Error initializing application!', ['exception' => $e->getMessage()]);
+    } catch (LoggerException) {
+
+    }
 }
