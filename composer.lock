@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "415a8a739f858c01b02bb6dd4129de58f49182e7"
+                "reference": "108d450453246fee2b888b1069b5ec60f69df403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/415a8a739f858c01b02bb6dd4129de58f49182e7",
-                "reference": "415a8a739f858c01b02bb6dd4129de58f49182e7",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/108d450453246fee2b888b1069b5ec60f69df403",
+                "reference": "108d450453246fee2b888b1069b5ec60f69df403",
                 "shasum": ""
             },
             "require": {
@@ -69,7 +69,7 @@
                 "issues": "https://github.com/asteriosframework/core/issues",
                 "source": "https://github.com/asteriosframework/core/tree/1.7.0"
             },
-            "time": "2026-03-10T12:06:24+00:00"
+            "time": "2026-03-10T12:24:28+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
