@@ -1,0 +1,56 @@
+{% extends "layout/main.twig" %}
+
+{% block content %}
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-semibold" href="#">
+                <img src="/assets/images/asteriosphp-logo.png" alt="{{ asteriosPHP }} Logo" class="logo me-2">
+            </a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p class="mt-3">The {{ asteriosPHP }} Framework is a simple and flexible PHP 8.+ framework, inspired from the best features of other frameworks, in a modern and elegant way.</p>
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary btn-lg">Get started</a>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <h4 class="mb-3">⚡ Fast</h4>
+                        <p>Optimized core structure for maximum performance and minimal latency.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <h4 class="mb-3">🧩 Modular</h4>
+                        <p>CClean architecture with clear separation of routing, views, and logic.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <h4 class="mb-3">🔒 Secure</h4>
+                        <p>Modern security standards and best practices are directly integrated.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-3">Ready to get started?</h2>
+            <p class="mb-4 text-muted">Build your next project with {{ asteriosPHP }}.</p>
+            <a href="#" class="btn btn-primary btn-lg">Start now</a>
+        </div>
+    </section>
+
+{% endblock %}
