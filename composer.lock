@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "asterios/core",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "c023e9666c0931e6c39a5634905357c7d5418675"
+                "reference": "415a8a739f858c01b02bb6dd4129de58f49182e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/c023e9666c0931e6c39a5634905357c7d5418675",
-                "reference": "c023e9666c0931e6c39a5634905357c7d5418675",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/415a8a739f858c01b02bb6dd4129de58f49182e7",
+                "reference": "415a8a739f858c01b02bb6dd4129de58f49182e7",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
                 "symfony/mailer": "^7.3",
                 "symfony/mime": "^7.3",
                 "symfony/twig-bridge": "^7.3",
-                "twig/twig": "^3.21",
+                "twig/twig": "^3.23",
                 "vanilla/htmlawed": "2.2.15"
             },
             "require-dev": {
@@ -67,9 +67,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/1.6.1"
+                "source": "https://github.com/asteriosframework/core/tree/1.7.0"
             },
-            "time": "2026-02-28T14:12:15+00:00"
+            "time": "2026-03-10T12:06:24+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1274,16 +1274,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "9fc881d95feae4c6c48678cb6372bd8a7ba04f5f"
+                "reference": "da5ab4fde3f6c88ab06e96185b9922f48b677cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/9fc881d95feae4c6c48678cb6372bd8a7ba04f5f",
-                "reference": "9fc881d95feae4c6c48678cb6372bd8a7ba04f5f",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/da5ab4fde3f6c88ab06e96185b9922f48b677cd1",
+                "reference": "da5ab4fde3f6c88ab06e96185b9922f48b677cd1",
                 "shasum": ""
             },
             "require": {
@@ -1339,7 +1339,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v7.4.6"
+                "source": "https://github.com/symfony/mime/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -1359,7 +1359,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-05T15:57:06+00:00"
+            "time": "2026-03-05T15:24:09+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1872,16 +1872,16 @@
         },
         {
             "name": "symfony/twig-bridge",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "8903bc9a64cf624ffe522893f3626d5a0b97175c"
+                "reference": "c67219ca6b79a57b64e36bbb2cd8ba741286587e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/8903bc9a64cf624ffe522893f3626d5a0b97175c",
-                "reference": "8903bc9a64cf624ffe522893f3626d5a0b97175c",
+                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/c67219ca6b79a57b64e36bbb2cd8ba741286587e",
+                "reference": "c67219ca6b79a57b64e36bbb2cd8ba741286587e",
                 "shasum": ""
             },
             "require": {
@@ -1963,7 +1963,7 @@
             "description": "Provides integration for Twig with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/twig-bridge/tree/v7.4.6"
+                "source": "https://github.com/symfony/twig-bridge/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -1983,7 +1983,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-25T16:50:00+00:00"
+            "time": "2026-03-04T15:37:05+00:00"
         },
         {
             "name": "twig/twig",
