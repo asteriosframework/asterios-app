@@ -27,8 +27,10 @@ class IndexController extends Controller
         }
 
         $responseData = [
+            'title' => 'AsteriosPHP - Build modern PHP applications.',
             'headline' => 'Build modern PHP applications.',
-            'asterios-php' => 'AsteriosPHP',
+            'asteriosPHP' => 'AsteriosPHP',
+            'date' => date('Y'),
         ];
         try
         {
