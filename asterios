@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env php
+<?php declare(strict_types=1);
 
-php vendor/bin/asterios "$@"
+require __DIR__ . '/vendor/autoload.php';
