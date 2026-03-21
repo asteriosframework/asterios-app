@@ -25,7 +25,7 @@ try {
     });
 
     Logger::forge()
-        ->info('Bootstrap hit: Set global twig variable. See bootstrap/bootstrap.php for more info.');
+        ->info('Bootstrap hit: Set global twig variable "appName". See bootstrap/bootstrap.php for more info.');
 
 } catch (ConfigLoadException|AsteriosException|LoggerException $e) {
     try {
