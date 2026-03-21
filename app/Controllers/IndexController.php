@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use Asterios\Core\Controller;
 use Asterios\Core\Exception\LoggerException;
-use Asterios\Core\Exception\ViewTemplateAccessException;
 use Asterios\Core\Logger;
 use Asterios\Core\View;
 use JsonException;
@@ -37,7 +36,7 @@ class IndexController extends Controller
             $data = View::forge('sites/index', false, $responseData)
                 ->renderAsString();
             $this->response($data);
-        } catch (JsonException|ViewTemplateAccessException $e)
+        } catch (JsonException $e)
         {
             try {
                 Logger::forge()
