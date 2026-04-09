@@ -14,7 +14,7 @@ class IndexController extends Controller
     {
         parent::__construct();
 
-        $this->set_content_type('text/html;');
+        $this->setContentType('text/html');
     }
 
     public function get_index(): void
