@@ -32,8 +32,19 @@
   "prefer-stable": true,
   "scripts": {
     "asterios-install": [
-      "@php vendor/bin/asterios install"
+      "@php vendor/bin/asterios install",
+      "@php -r \"passthru('npm install');\"",
+      "@build-assets"
     ],
+
+    "build-assets": [
+      "@php -r \"passthru('npm run build');\""
+    ],
+
+    "dev-assets": [
+      "@php -r \"passthru('npm run dev');\""
+    ],
+
     "post-install-cmd": [
       "@asterios-install"
     ],
