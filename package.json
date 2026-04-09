@@ -1,0 +1,11 @@
+{
+  "name": "asterios-app",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/asterios-app.css -o ./public/assets/css/asterios-app.css --watch",
+    "build": "tailwindcss -i ./assets/css/asterios-app.css -o ./public/assets/css/asterios-app.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
