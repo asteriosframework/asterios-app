@@ -4,3 +4,5 @@
 .env
 /.ddev/
 /cache/
+/public/assets/css/*.css
+/node_modules/
