@@ -8,7 +8,7 @@ $env = (new Env(Asterios::getBasePath() . DIRECTORY_SEPARATOR . '.env'));
 return [
     'default' => [
         'host' => $env->get('DB_HOST', 'db'),
-        'username' => $env->get('DB_USER', 'db'),
+        'username' => $env->get('DB_USERNAME', 'db'),
         'password' => $env->get('DB_PASSWORD', 'db'),
         'database' => $env->get('DB_DATABASE', 'db'),
         'charset' => $env->get('DB_CHARSET', 'db'),
