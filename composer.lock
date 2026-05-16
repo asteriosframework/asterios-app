@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba399ee95540e49905b947c4f2fe9915",
+    "content-hash": "11f70f3a5eb0eb12cd0baa76c686cf5b",
     "packages": [
         {
             "name": "asterios/core",
-            "version": "1.10.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "3c8ba4066c8628e58ba0dfd76e9e7e1d2578df31"
+                "reference": "6d972602fada9d9d5b2859aa3e03949b9e47fdeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/3c8ba4066c8628e58ba0dfd76e9e7e1d2578df31",
-                "reference": "3c8ba4066c8628e58ba0dfd76e9e7e1d2578df31",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/6d972602fada9d9d5b2859aa3e03949b9e47fdeb",
+                "reference": "6d972602fada9d9d5b2859aa3e03949b9e47fdeb",
                 "shasum": ""
             },
             "require": {
@@ -72,9 +72,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/1.10.0"
+                "source": "https://github.com/asteriosframework/core/tree/2.0.0"
             },
-            "time": "2026-05-14T18:11:31+00:00"
+            "time": "2026-05-16T15:00:31+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
