@@ -12,17 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "6d972602fada9d9d5b2859aa3e03949b9e47fdeb"
+                "reference": "7e40027d34e881143f98c8f4739c2f22d5a1b063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/6d972602fada9d9d5b2859aa3e03949b9e47fdeb",
-                "reference": "6d972602fada9d9d5b2859aa3e03949b9e47fdeb",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/7e40027d34e881143f98c8f4739c2f22d5a1b063",
+                "reference": "7e40027d34e881143f98c8f4739c2f22d5a1b063",
                 "shasum": ""
             },
             "require": {
                 "endroid/qr-code": "^6.0",
                 "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-libxml": "*",
                 "ext-mysqli": "*",
                 "firebase/php-jwt": "^7",
                 "mobiledetect/mobiledetectlib": "4.8.09",
@@ -74,7 +76,7 @@
                 "issues": "https://github.com/asteriosframework/core/issues",
                 "source": "https://github.com/asteriosframework/core/tree/2.0.0"
             },
-            "time": "2026-05-16T15:00:31+00:00"
+            "time": "2026-05-16T17:24:25+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
