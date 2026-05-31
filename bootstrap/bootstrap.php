@@ -21,7 +21,7 @@ try {
     Asterios::init();
 
     TwigManager::configure(static function(Environment $twig) {
-        $twig->addGlobal('appName', 'AsteriosPHP');
+        $twig->addGlobal('appName', 'de.asteriosphp.app');
         $twig->addGlobal('AsteriosPHPVersion', Asterios::version());
         $twig->addGlobal('lang', 'en');
     });
