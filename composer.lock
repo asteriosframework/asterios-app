@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "asterios/core",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "c5f50d793d6d3e5e98bdd0742f1238a174e6fb64"
+                "reference": "db8f3b28c155556d7cd5158fb1303ad58a17f153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/c5f50d793d6d3e5e98bdd0742f1238a174e6fb64",
-                "reference": "c5f50d793d6d3e5e98bdd0742f1238a174e6fb64",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/db8f3b28c155556d7cd5158fb1303ad58a17f153",
+                "reference": "db8f3b28c155556d7cd5158fb1303ad58a17f153",
                 "shasum": ""
             },
             "require": {
@@ -79,9 +79,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/2.3.0"
+                "source": "https://github.com/asteriosframework/core/tree/2.4.0"
             },
-            "time": "2026-05-27T12:55:32+00:00"
+            "time": "2026-05-31T09:25:24+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -905,16 +905,16 @@
         },
         {
             "name": "spomky-labs/otphp",
-            "version": "11.4.2",
+            "version": "v11.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/otphp.git",
-                "reference": "2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad"
+                "reference": "d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad",
-                "reference": "2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad",
+                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f",
+                "reference": "d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +959,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Spomky-Labs/otphp/issues",
-                "source": "https://github.com/Spomky-Labs/otphp/tree/11.4.2"
+                "source": "https://github.com/Spomky-Labs/otphp/tree/v11.4.3"
             },
             "funding": [
                 {
@@ -971,7 +971,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-01-23T10:53:01+00:00"
+            "time": "2026-05-31T09:08:33+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.26.0",
+            "version": "v3.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "1fcae487b180d78e6351f4e0afa91f9eab96a2bc"
+                "reference": "ae2071bffb38f04847fc0864d730c94b9cb8ab74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/1fcae487b180d78e6351f4e0afa91f9eab96a2bc",
-                "reference": "1fcae487b180d78e6351f4e0afa91f9eab96a2bc",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae2071bffb38f04847fc0864d730c94b9cb8ab74",
+                "reference": "ae2071bffb38f04847fc0864d730c94b9cb8ab74",
                 "shasum": ""
             },
             "require": {
@@ -2072,7 +2072,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.26.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.27.1"
             },
             "funding": [
                 {
@@ -2084,7 +2084,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-20T07:31:59+00:00"
+            "time": "2026-05-30T17:09:26+00:00"
         },
         {
             "name": "vanilla/htmlawed",
