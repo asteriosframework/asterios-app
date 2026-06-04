@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "asterios/core",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "db8f3b28c155556d7cd5158fb1303ad58a17f153"
+                "reference": "bf43b61484c2760a34c3acdd3e57de896db2ff84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/db8f3b28c155556d7cd5158fb1303ad58a17f153",
-                "reference": "db8f3b28c155556d7cd5158fb1303ad58a17f153",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/bf43b61484c2760a34c3acdd3e57de896db2ff84",
+                "reference": "bf43b61484c2760a34c3acdd3e57de896db2ff84",
                 "shasum": ""
             },
             "require": {
@@ -79,9 +79,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/2.4.0"
+                "source": "https://github.com/asteriosframework/core/tree/2.5.0"
             },
-            "time": "2026-05-31T09:25:24+00:00"
+            "time": "2026-06-04T11:18:37+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -905,16 +905,16 @@
         },
         {
             "name": "spomky-labs/otphp",
-            "version": "v11.4.3",
+            "version": "11.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/otphp.git",
-                "reference": "d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f"
+                "reference": "46663316285bf1f001a31584213b327494b00ae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f",
-                "reference": "d3ec3d0ed6d4884fe187b4237dd6acc2cde3cc1f",
+                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/46663316285bf1f001a31584213b327494b00ae7",
+                "reference": "46663316285bf1f001a31584213b327494b00ae7",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +959,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Spomky-Labs/otphp/issues",
-                "source": "https://github.com/Spomky-Labs/otphp/tree/v11.4.3"
+                "source": "https://github.com/Spomky-Labs/otphp/tree/11.4.3"
             },
             "funding": [
                 {
@@ -971,7 +971,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-05-31T09:08:33+00:00"
+            "time": "2026-05-31T12:42:43+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
