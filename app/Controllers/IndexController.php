@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use Asterios\Core\Controller;
 use Asterios\Core\Exception\LoggerException;
+use Asterios\Core\Http\ContentType;
 use Asterios\Core\Logger;
 use Asterios\Core\View;
 use JsonException;
@@ -14,7 +15,7 @@ class IndexController extends Controller
     {
         parent::__construct();
 
-        $this->setContentType('text/html');
+        $this->setContentType(ContentType::HTML);
     }
 
     public function get_index(): void
