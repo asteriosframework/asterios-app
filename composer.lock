@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "asterios/core",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asteriosframework/core.git",
-                "reference": "797d0feb1b8f9112b7d1d6682777a611b9ee5950"
+                "reference": "c5bc6f6520587da72707d147a4b2fcc52db276d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asteriosframework/core/zipball/797d0feb1b8f9112b7d1d6682777a611b9ee5950",
-                "reference": "797d0feb1b8f9112b7d1d6682777a611b9ee5950",
+                "url": "https://api.github.com/repos/asteriosframework/core/zipball/c5bc6f6520587da72707d147a4b2fcc52db276d0",
+                "reference": "c5bc6f6520587da72707d147a4b2fcc52db276d0",
                 "shasum": ""
             },
             "require": {
@@ -79,9 +79,9 @@
             "homepage": "https://www.asteriosphp.de",
             "support": {
                 "issues": "https://github.com/asteriosframework/core/issues",
-                "source": "https://github.com/asteriosframework/core/tree/2.10.0"
+                "source": "https://github.com/asteriosframework/core/tree/2.11.0"
             },
-            "time": "2026-07-10T18:32:07+00:00"
+            "time": "2026-07-14T06:15:26+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
