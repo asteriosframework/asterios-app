@@ -62,8 +62,7 @@ return [
     'file' => [
         'path' => $env->get(
             'CACHE_FILE_PATH',
-            Asterios::getBasePath()
-            . DIRECTORY_SEPARATOR
+            DIRECTORY_SEPARATOR
             . 'storage'
             . DIRECTORY_SEPARATOR
             . 'cache'
